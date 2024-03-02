@@ -213,7 +213,7 @@ function Upload-FileToAzureStorage {
 }
 
 #region Azure AI Services
-$script:AzureAIServicesSubscriptionKey = "00000000000000000000000000000000" #"95894af2fb4b498fb24ebf972e95f6af"
+$script:AzureAIServicesSubscriptionKey = "00000000000000000000000000000000"
 $script:AzureAIServicesEndpointRegion = ""
 $script:AzureAIServicesEndpointUrl = ""
 $script:AudioOutputFormat = "audio-24khz-48kbitrate-mono-mp3"
