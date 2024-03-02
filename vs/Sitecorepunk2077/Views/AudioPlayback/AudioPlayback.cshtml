@@ -1,0 +1,11 @@
+﻿@model Sitecorepunk2077.Models.AudioPlayback
+
+@if (!string.IsNullOrEmpty(Model.AudioUrl))
+{
+<div style="position: fixed;bottom: 0;right: 0;">
+    <div style="right: 212px;position: fixed;bottom: 60px;">
+        🔉 @Model.TitleText
+    </div>
+    <audio id="tts-audio-player" controls src="@Model.AudioUrl" style="width:375px;"></audio>
+</div>
+}
